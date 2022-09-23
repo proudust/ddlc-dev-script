@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ddlc-dev-script"
+version = "0.1.0"
+description = "Build script used by Proudust's DDLC MODs"
+authors = ["Proudust <proudust@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "ddlc_dev_script"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
